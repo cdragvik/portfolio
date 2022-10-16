@@ -29,7 +29,7 @@ async function getCards() {
                 <div class="box">
                 <img src="${getCards[i].better_featured_image.source_url}" alt="" class="cardimg">
                 <h2>${getCards[i].title.rendered}</h2>
-                <p>${getCards[i].excerpt.rendered}</p>
+                ${getCards[i].excerpt.rendered}
                 </div></a>`
             }
             createHTML(getCards); 

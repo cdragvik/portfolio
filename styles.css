@@ -20,6 +20,9 @@ h2 {
     padding-top: 10px;
 }
 
+p {
+    padding: 5px;
+}
 
 
 /* HEADER*/ 
@@ -129,8 +132,14 @@ a{
 
 
 .img {
-    height: 310px;
+    width: 90%;
     padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.image {
+    max-width: 400px;
 }
 
 .sec {
@@ -178,27 +187,6 @@ button {
 
 }
 
-@media(max-width:800px){
-    .sec {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-
-    .homeimg {
-        display: none;
-    }
-
-    .div {
-        padding: 10px 40px;
-        margin: auto;
-    }
-}
-
-
-/* PROJECTS */ 
-
 .cardimg {
     max-width: 300px;
     margin: auto;
@@ -238,6 +226,34 @@ button {
     margin: auto;
     padding: 20px;
 }
+
+
+@media(max-width:800px){
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .homeimg {
+        display: none;
+    }
+
+    .div {
+        padding: 10px 40px;
+        margin: auto;
+    }
+
+    .cardsec {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
 
 /* FOOTER */ 
 
