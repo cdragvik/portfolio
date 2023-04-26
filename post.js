@@ -28,7 +28,9 @@ async function cardDetails() {
         postContainer.innerHTML += `<div class="details">
                                     <h1>${details.title.rendered}</h1>
                                     <img src="${details.better_featured_image.source_url}" alt="" class="img">
-                                    <p>${details.content.rendered}</p>
+                                    <div class="card">
+                                        <p>${details.content.rendered}</p>
+                                    </div>
                                     </div>`;
 
 

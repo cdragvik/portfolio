@@ -130,16 +130,12 @@ a{
 
 /* */ 
 
-
-.img {
-    width: 90%;
-    padding: 10px;
-    display: block;
-    margin: auto;
+.image {
+    max-width: 400px;;
 }
 
-.image {
-    max-width: 400px;
+.img{
+    width: 100%;
 }
 
 .sec {
@@ -225,6 +221,11 @@ button {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
 }
 
 
