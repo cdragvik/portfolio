@@ -7,15 +7,13 @@ const id = params.get("id");
 console.log(id);
 
 const url = "https://www.cdragvik.one/wp-json/wp/v2/posts/" + id; 
-const proxy = "https://noroffcors.herokuapp.com/";
-const postUrl = proxy + url;
 
 console.log(url);
 
 async function cardDetails() {
 
     try {
-        const response = await fetch(postUrl); 
+        const response = await fetch(url); 
         const details = await response.json(); 
 
         console.log(details);
