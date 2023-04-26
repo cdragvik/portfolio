@@ -16,12 +16,9 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 10px;
-}
-
-p {
-    padding: 5px;
+    padding-bottom: 10px;
 }
 
 
@@ -131,7 +128,7 @@ a{
 /* */ 
 
 .image {
-    max-width: 400px;;
+   height: 400px;
 }
 
 .img{
